@@ -1,13 +1,32 @@
-<html>
-	<head>
-	</head>
-	<body>
-		<h1>lukflug's Maven Repo</h1>
-		List of things:
-		<ul>
-			<li>com.lukflug.panelstudio</li>
-			<li>com.lukflug.panelstudio-mc12</li>
-			<li>com.lukflug.panelstudio-mc16</li>
-		</ul>
-	</body>
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Maven repo - lukflug's website</title>
+	<link rel="stylesheet" href="../main.css">
+  </head>
+  <body>
+    <header>
+      <h1><a href="index.html">lukflug's random stuff</a></h1>
+	</header>
+	<nav>
+	  <a href="../index.html">Home</a>
+	  <a href="../panelstudio.html">PanelStudio</a>
+	  <a href="index.html" class="active">Maven repo</a>
+	  <a href="../navigation.html">Navigation</a>
+	  <a href="https://github.com/lukflug" style="float:right;">GitHub</a>
+	</nav>
+	<section>
+      <h2>lukflug's Maven repository - <span id="location"></span></h2>
+      <div id="loading">Loading ...</div>
+      <table id="maventable"></table>
+	</section>
+	<footer>
+		<div>&copy; 2021 lukflug. All rights reserved.</div>
+	</footer>
+	<script src="../getQueryValue.js"></script>
+    <script src="maven.js"></script>
+  </body>
 </html>
