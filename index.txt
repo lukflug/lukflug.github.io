@@ -1,8 +1,9 @@
 100644 blob 4b014314641b7929ef293cedc4e756da70f42bcb    1069	LICENSE
-100644 blob a54f825d43131648e1b403ee8b265a83cbc0317f      41	README.md
-100644 blob 7856c86b80fda2e695d8d5477b05f46df9e9fc4e     209	getQueryValue.js
-100644 blob 35e821a9a3b41dc9548da5f189c93487218edc4e    1415	index.html
-100644 blob f7f16433f38b80c995f516d0a0f6aa73e9c0f9b7     678	javadoc/javadoc.js
+100644 blob 0b24f532dafdfd2c433c2e87760de9dcb807fc30     106	README.md
+100644 blob f38011dc68c3a130bca0af798d2203b753803bdf     201	getQueryValue.js
+100644 blob a27649c28168bf7b61426bb408267818af69f59b    1400	index.html
+100644 blob dbd7bc5018d327111654eba71d36215db8a41f88  235196	index.txt
+100644 blob ef54a59df488a9786f6a7a0414155e3f50a9f50a    1024	javadoc/javadoc.js
 100644 blob 985def616746453c6b9514d78cb14cd5c9fdc654   14867	javadoc/panelstudio/0.0.1/allclasses-index.html
 100644 blob a729386c94ce22a6a3ea42eed8d97c6d2ee49a31    4124	javadoc/panelstudio/0.0.1/allpackages-index.html
 100644 blob b57b494a49a76f510bb5519f70f47eb813ba82ea   19217	javadoc/panelstudio/0.0.1/com/lukflug/panelstudio/ClickGUI.html
@@ -1578,7 +1579,7 @@
 100644 blob b34635693143ac308ba6d22c29554e5631f64b74     827	javadoc/panelstudio/0.1.9/script.js
 100644 blob 98055b22d6d5bed7792d6857aa760cf914c62653   12842	javadoc/panelstudio/0.1.9/stylesheet.css
 100644 blob 27ffc3c8ea33b32341a5ba566c64bd87253a3581   33682	logo.png
-100644 blob 6face91472234a1c36c1647e961488c6560b47db    1349	main.css
+100644 blob b794379a154ce8a572ab5af3e994dd7817434cb1    1304	main.css
 100644 blob fc313b92f3e11c620bb0ca3883315ccce8c3a092    8973	maven/com/lukflug/panelstudio-mc12/0.1.7/panelstudio-mc12-0.1.7.jar
 100644 blob c38a42f5ca0671075e7c3e1ddc2cc7f284d98aae     391	maven/com/lukflug/panelstudio-mc12/0.1.7/panelstudio-mc12-0.1.7.pom
 100644 blob 0fe27e487400a3aab57d10b9846809b8c2c64f05    5671	maven/com/lukflug/panelstudio-mc12/0.1.8/panelstudio-mc12-0.1.8-sources.jar
@@ -1777,9 +1778,9 @@
 100644 blob 2b8581d14a07c6ddaaf9b586edda927807e2860b     685	maven/com/lukflug/panelstudio/maven-metadata.xml
 100644 blob 0c57547921741adca93e9d0d0e64124bd7770063      32	maven/com/lukflug/panelstudio/maven-metadata.xml.md5
 100644 blob 4a2ffd5f6938cd2918b4a2233d1ff626138f53bc      40	maven/com/lukflug/panelstudio/maven-metadata.xml.sha1
-100644 blob ae910a0697d33b6a10c6ea15e3d55fa45e45c825    1010	maven/index.html
-100644 blob 940081bcafd7a57ab3dea42815193bd25cefd4b1    4406	maven/maven.js
-100644 blob 0919cf154c920e6479d3cdd9602d76e7e6af0a0d     942	navigation.html
-100644 blob 32c20f3c10190ab6a7d858c88cb0ea57cef65e4d    1170	navigation.js
-100644 blob d1770593192011c86b2262a096c56f280b684bcf    3113	panelstudio.html
+100644 blob 78716d1043f3b916da8210ce2cda9a7dbdb25faa     995	maven/index.html
+100644 blob ed3b7e0eea5aa6d9194dcf04702fd858aca02ea4    4288	maven/maven.js
+100644 blob 63010eaafa782952116aab07af8505e50082090c     936	navigation.html
+100644 blob 0f062797bdf1c1f07727fe214a6adccb4778768f    1779	navigation.js
+100644 blob ebd7863b9487fd72e665a7468bfabd091e39cbee    2990	panelstudio.html
 100644 blob 5cf536a4eb2a420db3f8fd7b97c78bb1328546ce   21570	panelstudio.png
