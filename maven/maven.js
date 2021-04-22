@@ -12,22 +12,22 @@ function createLink(name,href) {
 
 async function addVersion(groupId,artifactId,version) {
 	var downloads="";
-	if (!version.endsWith("-SNAPSHOT")) {
+	var metaResponse=await fetch(groupId.replaceAll(".","/")+"/"+artifactId+"/"+version+"/maven-metadata.xml");
+	if (!metaResponse.ok) {
 		var downloads="";
 		var versionDir="maven/"+groupId.replaceAll(".","/")+"/"+artifactId+"/"+version+"/";
 		for (var i=repoIndex.length-1;i>=0;i--) {
 			if (repoIndex[i]=="") continue;
 			var filePath=repoIndex[i].substring(repoIndex[i].indexOf("\t")+1);
 			if (filePath.substring(0,versionDir.length)==versionDir&&filePath.endsWith(".jar")) {
-				var fileName=filePath.substring(filePath.lastIndexOf("/")+1)
+				var fileName=filePath.substring(filePath.lastIndexOf("/")+1);
 				var displayName=fileName.substring(0,fileName.length-4).split("-");
-				if (displayName[displayName.length-1]==version) displayName[displayName.length-1]="binary";
+				if (displayName[displayName.length-1]==version||displayName[displayName.length-1]=="SNAPSHOT") displayName[displayName.length-1]="binary";
 				downloads+="<a href=\""+filePath.substring(6)+"\">"+displayName[displayName.length-1]+"</a> ";
 			}
 		}
 		addTableEntry(createLink(groupId,groupId.replaceAll(".","/")),createLink(artifactId,groupId.replaceAll(".","/")+"/"+artifactId),version,downloads);
 	} else {
-		var metaResponse=await fetch(groupId.replaceAll(".","/")+"/"+artifactId+"/"+version+"/maven-metadata.xml");
 		var metadataText=await metaResponse.text();
 		var metadata=new DOMParser().parseFromString(metadataText,"text/xml");
 		var files=metadata.getElementsByTagName("snapshotVersion");
