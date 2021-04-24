@@ -34,7 +34,6 @@ function redraw() {
 			if (content[i][j]!=0) context.fillRect(132+32*j,102+32*i,32,32);
 		}
 	}
-	document.getElementById("meta-image").content = canvas.toDataURL();
 	document.getElementById("icon-image").href = canvas.toDataURL();
 }
 
