@@ -1,9 +1,9 @@
 100644 blob 4b014314641b7929ef293cedc4e756da70f42bcb    1069	LICENSE
 100644 blob 0b24f532dafdfd2c433c2e87760de9dcb807fc30     106	README.md
-100644 blob af5b7e5a517f9e33593c9203cf3ee8f654b7745c    2107	forgegradle-patch.html
+100644 blob d774bcd715419e9da767e21d8928fce2da51a527    2324	forgegradle-patch.html
 100644 blob f38011dc68c3a130bca0af798d2203b753803bdf     201	getQueryValue.js
-100644 blob 24b665e705e84a8f3362a11a2a587d565960aacb    2342	index.html
-100644 blob a982b276f766b64c50ed8236ce858f9f5f4a3493  236595	index.txt
+100644 blob 77c64d09b3ac66ef8e02ce164f0d88ffe3e26f0d    2353	index.html
+100644 blob 173b5908c9789f2bc202cd4c9d27c87376de7902  245832	index.txt
 100644 blob ef54a59df488a9786f6a7a0414155e3f50a9f50a    1024	javadoc/javadoc.js
 100644 blob 985def616746453c6b9514d78cb14cd5c9fdc654   14867	javadoc/panelstudio/0.0.1/allclasses-index.html
 100644 blob a729386c94ce22a6a3ea42eed8d97c6d2ee49a31    4124	javadoc/panelstudio/0.0.1/allpackages-index.html
