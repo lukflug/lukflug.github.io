@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lukflug</groupId>
+  <artifactId>panelstudio-mc8-fabric</artifactId>
+  <version>0.2.0-SNAPSHOT</version>
+  <name>PanelStudio-MC8-Fabric</name>
+  <description>A supplement to PanelStudio desgined for Legacy Fabric 1.8.9.</description>
+  <url>https://github.com/lukflug/PanelStudio</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://raw.githubusercontent.com/lukflug/PanelStudio/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lukflug</id>
+    </developer>
+    <developer>
+      <id>NirvanaNevermind</id>
+    </developer>
+  </developers>
+  <dependencies/>
+</project>
