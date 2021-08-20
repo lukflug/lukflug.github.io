@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lukflug</groupId>
+  <artifactId>panelstudio-mc16-forge</artifactId>
+  <version>0.2.0</version>
+  <name>PanelStudio-MC16-Forge</name>
+  <description>A supplement to PanelStudio designed for Minecraft Forge 1.16.x.</description>
+  <url>https://github.com/lukflug/PanelStudio</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://raw.githubusercontent.com/lukflug/PanelStudio/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lukflug</id>
+    </developer>
+  </developers>
+</project>
