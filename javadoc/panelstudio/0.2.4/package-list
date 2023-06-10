@@ -1,0 +1,16 @@
+com.lukflug.panelstudio.base
+com.lukflug.panelstudio.component
+com.lukflug.panelstudio.config
+com.lukflug.panelstudio.container
+com.lukflug.panelstudio.hud
+com.lukflug.panelstudio.layout
+com.lukflug.panelstudio.mc12
+com.lukflug.panelstudio.mc16fabric
+com.lukflug.panelstudio.mc16forge
+com.lukflug.panelstudio.mc8fabric
+com.lukflug.panelstudio.mc8forge
+com.lukflug.panelstudio.popup
+com.lukflug.panelstudio.setting
+com.lukflug.panelstudio.tabgui
+com.lukflug.panelstudio.theme
+com.lukflug.panelstudio.widget
