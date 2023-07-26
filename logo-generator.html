@@ -26,20 +26,22 @@
 			<a href="navigation.html">Navigation</a>
 			<a href="https://github.com/lukflug" style="float:right;">GitHub</a>
 		</nav>
-		<section>
-			<h2>lukflug's Logo Generator</h2>
-			<p>Since way too many of you requested this and because Forge bricked their legacy software (i.e. ForgeGradle 2.x), I made it. Click to manipulate the image, right click and use the Browser's "save image as" feature to save.</p>
-			<form name="Logo Generator" id="form">
-				<label for="base">Base Color:</label>
-				<input type="color" id="base" name="base" value="#00ff00"><br><br>
-				<label for="left">Left Color:</label>
-				<input type="color" id="left" name="left" value="#0000ff"><br><br>
-				<label for="right">Right Color:</label>
-				<input type="color" id="right" name="right" value="#000000"><br><br>
-			</form>
-			<button type="button" onclick="generateLink();">Copy link!</button><br><br>
-			<canvas id="logo" width="512" height="512" style="border:1px solid black;"></canvas>
-		</section>
+		<article>
+			<section>
+				<h2>lukflug's Logo Generator</h2>
+				<p>Since way too many of you requested this and because Forge bricked their legacy software (i.e. ForgeGradle 2.x), I made it. Click to manipulate the image, right click and use the Browser's "save image as" feature to save.</p>
+				<form name="Logo Generator" id="form">
+					<label for="base">Base Color:</label>
+					<input type="color" id="base" name="base" value="#00ff00"><br><br>
+					<label for="left">Left Color:</label>
+					<input type="color" id="left" name="left" value="#0000ff"><br><br>
+					<label for="right">Right Color:</label>
+					<input type="color" id="right" name="right" value="#000000"><br><br>
+				</form>
+				<button type="button" onclick="generateLink();">Copy link!</button><br><br>
+				<canvas id="logo" width="512" height="512" style="border:1px solid black;"></canvas>
+			</section>
+		</article>
 		<footer>
 			<div>&copy; 2021,2022,2023 lukflug. All rights reserved.</div>
 		</footer>

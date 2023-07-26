@@ -42,6 +42,10 @@ nav a:hover {
 	background-color: #80c0ff;
 }
 
+article {
+	padding: 0px 10px;
+}
+
 section {
 	background-color: white;
 	margin: 10px auto;
