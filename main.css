@@ -3,6 +3,9 @@ body {
 	background-color: #e0e0ff;
 	font-family: arial,helvetica,sans-serif;
 	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 header {
@@ -44,6 +47,7 @@ nav a:hover {
 
 article {
 	padding: 0px 10px;
+	flex-grow: 1;
 }
 
 section {
